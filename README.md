@@ -1,9 +1,8 @@
-# Fabric Example Mod
+# Project:Azure
 
-## Setup
+## OwO what is this?
+Project: Azure is WIP mod for minecraft that adds features from mobile game Azur lane into minecraft
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## What should I expect?
+To be completely honest, nothing. we are just bunch of java noobs struggling to get things working.
+but if you want to see what we want to add if everything goes well, read [here](https://docs.google.com/document/d/1ocFwLzTVXYTMhaFG4oqDjDmyCDZzAvd04ZcmKijaXAo/edit?usp=sharing)
