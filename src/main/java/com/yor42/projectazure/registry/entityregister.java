@@ -2,6 +2,8 @@ package com.yor42.projectazure.registry;
 
 import com.yor42.projectazure.gameobject.entity.entityTestDummy;
 import com.yor42.projectazure.utils.defined;
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
@@ -11,6 +13,7 @@ import net.minecraft.entity.SpawnGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
+@Environment(EnvType.CLIENT)
 public class entityregister {
 
     public static final EntityType<entityTestDummy> DUMMY = Registry.register(

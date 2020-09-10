@@ -23,7 +23,7 @@ public class ProjectAzure implements ModInitializer {
 		// Proceed with mild caution.
 		itemregistry.registeritems();
 		entityregister.registerEntityAttribute();
-		System.out.println("Hello Fabric!");
+		System.out.println("Project Azure: Starting up...");
 
 	}
 }
