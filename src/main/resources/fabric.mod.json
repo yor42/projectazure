@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "com.yor42.projectazure.ProjectAzure"
+    ],
+    "client": [
+      "com.yor42.projectazure.mainClient"
     ]
   },
   "mixins": [

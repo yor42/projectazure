@@ -22,23 +22,8 @@ public class ProjectAzure implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		itemregistry.registeritems();
-		System.out.println("Hello Fabric world!");
+		entityregister.registerEntityAttribute();
+		System.out.println("Hello Fabric!");
+
 	}
-
-	@Environment(EnvType.CLIENT)
-	public class EntityTestingClient implements ClientModInitializer {
-
-		@Override
-		public void onInitializeClient() {
-			/*
-			 * Registers our Cube Entity's renderer, which provides a model and texture for the entity.
-			 *
-			 * Entity Renderers can also manipulate the model before it renders based on entity context (EndermanEntityRenderer#render).
-			 */
-			EntityRendererRegistry.INSTANCE.register(entityregister.DUMMY, (dispatcher, context) -> {
-				return new testdummyrenderer(dispatcher);
-			});
-		}
-	}
-
 }

@@ -5,6 +5,7 @@
 package com.yor42.projectazure.gameobject.entity.model;
 
 import com.yor42.projectazure.gameobject.entity.entityTestDummy;
+import com.yor42.projectazure.utils.defined;
 import software.bernie.geckolib.forgetofabric.ResourceLocation;
 import software.bernie.geckolib.animation.model.AnimatedEntityModel;
 import software.bernie.geckolib.animation.render.AnimatedModelRenderer;
@@ -102,6 +103,6 @@ public class entityTestDummyModel extends AnimatedEntityModel<entityTestDummy> {
     @Override
     public ResourceLocation getAnimationFileLocation()
     {
-        return new ResourceLocation("projectazure", "animations/testdummy.json");
+        return new ResourceLocation(defined.modid, "animations/testdummy.json");
     }
 }
