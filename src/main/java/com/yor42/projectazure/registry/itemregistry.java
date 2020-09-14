@@ -1,11 +1,13 @@
 package com.yor42.projectazure.registry;
 
 import com.yor42.projectazure.gameobject.items.itemtooltips;
-import com.yor42.projectazure.utils.defined;
+import com.yor42.projectazure.utils.references.defined;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+
+import java.util.ArrayList;
 
 public class itemregistry {
 

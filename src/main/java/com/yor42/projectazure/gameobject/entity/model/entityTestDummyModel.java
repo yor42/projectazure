@@ -5,7 +5,7 @@
 package com.yor42.projectazure.gameobject.entity.model;
 
 import com.yor42.projectazure.gameobject.entity.entityTestDummy;
-import com.yor42.projectazure.utils.defined;
+import com.yor42.projectazure.utils.references.defined;
 import software.bernie.geckolib.forgetofabric.ResourceLocation;
 import software.bernie.geckolib.animation.model.AnimatedEntityModel;
 import software.bernie.geckolib.animation.render.AnimatedModelRenderer;

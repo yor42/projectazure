@@ -2,14 +2,12 @@ package com.yor42.projectazure.gameobject.entity.render;
 
 import com.yor42.projectazure.gameobject.entity.entityTestDummy;
 import com.yor42.projectazure.gameobject.entity.model.entityTestDummyModel;
-import com.yor42.projectazure.utils.defined;
+import com.yor42.projectazure.utils.references.defined;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.client.render.entity.EntityRenderDispatcher;
 import net.minecraft.client.render.entity.MobEntityRenderer;
-import net.minecraft.client.render.entity.model.EntityModel;
 import net.minecraft.client.util.math.MatrixStack;
-import net.minecraft.entity.Entity;
 import net.minecraft.util.Identifier;
 
 @Environment(EnvType.CLIENT)
